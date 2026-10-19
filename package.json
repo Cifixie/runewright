@@ -1,0 +1,11 @@
+{
+  "name": "runewright",
+  "private": true,
+  "packageManager": "pnpm@12.3.4",
+  "scripts": {
+    "dev": "concurrently -k -n web,pty -c blue,green \"pnpm --filter @runewright/web dev\" \"pnpm --filter @runewright/pty-server start\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}

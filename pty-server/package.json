@@ -1,0 +1,12 @@
+{
+  "name": "@runewright/pty-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "node-pty": "^1.1.0",
+    "ws": "^8.18.0"
+  }
+}
